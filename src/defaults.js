@@ -66,7 +66,7 @@ export default {
    * @type {string}
    */
   mimeType: 'auto',
-// 
+
   /**
    * PNG files over this value (5 MB by default) will be converted to JPEGs.
    * To disable this, just set the value to `Infinity`.
