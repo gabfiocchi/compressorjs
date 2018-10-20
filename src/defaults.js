@@ -75,6 +75,14 @@ export default {
   convertSize: 5000000,
 
   /**
+   * The backgroud of the output image.
+   * By default, the original background of the source image will be used.
+   * On PNG the background it's `transparent`.
+   * @type {string}
+   */
+  fillStyle: 'transparent',
+
+  /**
    * The hook function to execute before draw the image into the canvas for compression.
    * @type {Function}
    * @param {CanvasRenderingContext2D} context - The 2d rendering context of the canvas.

@@ -779,7 +779,7 @@
         } // Override the default fill color (#000, black)
 
 
-        context.fillStyle = fillStyle;
+        context.fillStyle = options.fillStyle || fillStyle;
         context.fillRect(0, 0, width, height);
         context.translate(width / 2, height / 2);
         context.rotate(rotate * Math.PI / 180);

@@ -23,6 +23,7 @@ window.addEventListener('DOMContentLoaded', function () {
           quality: 0.8,
           mimeType: '',
           convertSize: 5000000,
+          fillStyle: 'transparent',
           success: function (result) {
             console.log('Output: ', result);
 
