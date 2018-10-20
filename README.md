@@ -215,6 +215,13 @@ PNG files over this value will be converted to JPEGs. To disable this, just set 
 | 5 MB | 5.66 MB (PNG) | 450.24 KB (JPEG) | 92.23% |
 | 5 MB | 9.74 MB (PNG) | 883.89 KB (JPEG) | 91.14% |
 
+### fillStyle
+
+- Type: `string`
+- Default: `transparent` or `#fff` if has apply convertSize.
+
+The fillStyle it's using for change the background for PNG's files.
+
 ### beforeDraw(context, canvas)
 
 - Type: `Function`
