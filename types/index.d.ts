@@ -11,6 +11,7 @@ declare namespace Compressor {
     quality?: number;
     mimeType?: string;
     convertSize?: number;
+    fillStyle?: string;
     beforeDraw?(context: CanvasRenderingContext2D, canvas: HTMLCanvasElement): void;
     drew?(context: CanvasRenderingContext2D, canvas: HTMLCanvasElement): void;
     success?(file: Blob): void;
